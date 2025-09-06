@@ -34,17 +34,21 @@ A decentralized healthcare record management system built on Ethereum blockchain
 - Database: On-chain storage using smart contracts
 
 ## Setup Instructions
-'''bash
-# Install dependencies
+
+When rendered on GitHub, it will appear as a **boxed code block with syntax highlighting** for bash:
+
+```bash
+#Install dependencies
 npm install -g truffle ganache
 mkdir healthcare-dapp-truffle && cd healthcare-dapp-truffle
 truffle init
 npm init -y
 npm install dotenv @truffle/hdwallet-provider
 
-# Compile and deploy smart contracts
+#Compile and deploy smart contracts
 truffle compile
 truffle migrate --network development
 
-# Run frontend
+#Run frontend
 npm start
+
