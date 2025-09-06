@@ -69,7 +69,7 @@ A decentralized healthcare record management system built on Ethereum blockchain
 
 When rendered on GitHub, it will appear as a **boxed code block with syntax highlighting** for bash:
 
-```bash
+```` ```bash ```
 #Install dependencies
 npm install -g truffle ganache
 mkdir healthcare-dapp-truffle && cd healthcare-dapp-truffle
@@ -83,7 +83,7 @@ truffle migrate --network development
 
 #Run frontend
 npm start
----
+```` ``` ```` 
 
 ## 🚀 Usage
 
