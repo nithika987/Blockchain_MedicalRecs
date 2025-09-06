@@ -1,16 +1,16 @@
-# Blockchain_MedicalRecs
+# 🏥 Blockchain_Medical_Records
 ## Project Overview
 A decentralized healthcare record management system built on Ethereum blockchain that enables secure storage, access, and sharing of patient medical data. The system ensures patient consent, privacy, and doctor accountability.
 
-## Key Features
-- Secure Record Management: Doctors can add/update patient records only with consent.
-- Consent Management: Patients control which doctors can access their records.
-- Doctor Rating System: Patients can rate doctors; ratings are stored on-chain for accountability.
-- Access Control: Role-based permissions with onlyDoctor and onlyPatient modifiers.
-- Record Visibility: Doctors can toggle visibility of records they create.
+## ✨ Key Features
+- 🔒 **Secure Record Management:** Doctors can add/update patient records only with consent.
+- 📝 **Consent Management:** Patients control which doctors can access their records.
+- ⭐ **Doctor Rating System:** Patients can rate doctors; ratings stored on-chain.
+- 👥 **Access Control:** Role-based permissions for doctors and patients.
+- 👀 **Record Visibility:** Doctors can toggle visibility of records.
 - Efficient Data Access: Supports paginated record retrieval for scalability.
 - Frontend Integration: React.js + ethers.js interface for wallet-based interactions.
-
+  
 ## Smart Contract (HealthRecord.sol)
 - Structs: Patient, Doctor, Record to store health data, consent, and ratings.
 - Mappings: Quick lookup for doctors, patients, addresses, and IDs.
@@ -28,12 +28,13 @@ A decentralized healthcare record management system built on Ethereum blockchain
 - Allows doctors to: register, add/update records, view patients with consent
 - Async blockchain interactions with transaction confirmations
 
-## Tech Stack
-- Blockchain: Ethereum, Solidity, Truffle, Ganache
-- Frontend: React.js, ethers.js
-- Database: On-chain storage using smart contracts
+## 🛠️ Tech Stack
+- 🧩 Blockchain: Ethereum, Solidity, Truffle, Ganache
+- 💻 Frontend: React.js, ethers.js
+- 🗄️ Database: On-chain storage using smart contracts
 
-## Setup Instructions
+
+## ⚙️ Setup Instructions
 
 When rendered on GitHub, it will appear as a **boxed code block with syntax highlighting** for bash:
 
@@ -52,3 +53,11 @@ truffle migrate --network development
 #Run frontend
 npm start
 
+
+## 🚀 Usage
+
+1. Register as a patient or doctor
+2. Patients grant consent to doctors
+3. Doctors add/update medical records
+4. Patients view records and rate doctors
+5. Record visibility controlled by creating doctor
