@@ -27,3 +27,24 @@ A decentralized healthcare record management system built on Ethereum blockchain
 - Allows patients to: register, give/revoke consent, rate doctors, view records
 - Allows doctors to: register, add/update records, view patients with consent
 - Async blockchain interactions with transaction confirmations
+
+## Tech Stack
+- Blockchain: Ethereum, Solidity, Truffle, Ganache
+- Frontend: React.js, ethers.js
+- Database: On-chain storage using smart contracts
+
+## Setup Instructions
+'''bash
+# Install dependencies
+npm install -g truffle ganache
+mkdir healthcare-dapp-truffle && cd healthcare-dapp-truffle
+truffle init
+npm init -y
+npm install dotenv @truffle/hdwallet-provider
+
+# Compile and deploy smart contracts
+truffle compile
+truffle migrate --network development
+
+# Run frontend
+npm start
