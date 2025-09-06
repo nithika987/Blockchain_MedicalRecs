@@ -1,7 +1,11 @@
 # 🏥 Blockchain_Medical_Records
+![Solidity](https://img.shields.io/badge/Solidity-^0.8.0-blue) 
+![Ethereum](https://img.shields.io/badge/Ethereum-Smart%20Contracts-purple)
+![React](https://img.shields.io/badge/Frontend-React.js-lightblue)
+
 ## Project Overview
 A decentralized healthcare record management system built on Ethereum blockchain that enables secure storage, access, and sharing of patient medical data. The system ensures patient consent, privacy, and doctor accountability.
-<img width="620" height="308" alt="image" src="https://github.com/user-attachments/assets/9166be04-d663-4f06-a353-4d65bddeea52" />
+<img width="788" height="398" alt="image" src="https://github.com/user-attachments/assets/fd240286-fb4e-44f2-8e3f-079283c08db7" />
 
 ## ✨ Key Features
 - 🔒 **Secure Record Management:** Doctors can add/update patient records only with consent.
@@ -12,21 +16,31 @@ A decentralized healthcare record management system built on Ethereum blockchain
 - **Efficient Data Access**: Supports paginated record retrieval for scalability.
 - **Frontend Integration**: React.js + ethers.js interface for wallet-based interactions.
 
-Record Updation:
+**Record Updation:**
 
 <img width="590" height="316" alt="image" src="https://github.com/user-attachments/assets/5d8a0275-7ac6-45ac-8a24-3f56e71cec03" />
 
-Doctor registration:
+**Doctor registration:**
 
 <img width="580" height="283" alt="image" src="https://github.com/user-attachments/assets/9ddc6e43-a88b-4ebe-aed3-ca598881c1f0" />
 
-Patient registration:
+**Patient registration:**
 
 <img width="590" height="287" alt="image" src="https://github.com/user-attachments/assets/9793476c-d098-463f-ad4f-88bb36737eb8" />
 
-Patient giving consent to particular doctor:
+**Patient giving consent to particular doctor:**
 
 <img width="578" height="273" alt="image" src="https://github.com/user-attachments/assets/d501f86a-11d7-4e2a-9bbc-f84237e5bf83" />
+
+**Doctor can’t add records when consent not given:**
+
+<img width="583" height="249" alt="image" src="https://github.com/user-attachments/assets/a255311a-af33-4b44-a240-d8ffd8da7ed5" />
+
+**Records in Doctor and Patient accounts:**
+
+<img width="489" height="406" alt="image" src="https://github.com/user-attachments/assets/06f779cc-8fbf-47a5-a6de-319e310901e9" />
+
+**Has other features like Rate Doctor, View all Records etc;**
 
 ## Smart Contract (HealthRecord.sol)
 - Structs: Patient, Doctor, Record to store health data, consent, and ratings.
@@ -78,3 +92,11 @@ npm start
 3. Doctors add/update medical records
 4. Patients view records and rate doctors
 5. Record visibility controlled by creating doctor
+
+## 📄 License
+This project is licensed under the MIT License.
+
+## 👥 Contributors
+- [Nitika Balaji](https://github.com/nithika987)
+- Chandana S
+- Eshwari L Adiga
