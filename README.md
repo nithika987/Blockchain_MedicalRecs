@@ -15,11 +15,11 @@ A decentralized healthcare record management system built on Ethereum blockchain
 - Structs: Patient, Doctor, Record to store health data, consent, and ratings.
 - Mappings: Quick lookup for doctors, patients, addresses, and IDs.
 - Events: Log key actions (registration, record updates, consent changes) off-chain.
--Functions:
-   -Registration: registerDoctor, registerPatient
-   -Consent: giveConsent, hasGivenConsent
-   -Ratings: giveRating, getDoctorRating, getMyRating
-   -Records: addRecord, updateRecord, toggleRecordVisibility, getRecords, getRecordsPaginated
+- Functions:
+   - Registration: registerDoctor, registerPatient
+   - Consent: giveConsent, hasGivenConsent
+   - Ratings: giveRating, getDoctorRating, getMyRating
+   - Records: addRecord, updateRecord, toggleRecordVisibility, getRecords, getRecordsPaginated
 
 ## Frontend (App.js)
 - Connects to Ethereum wallet using ethers.js
